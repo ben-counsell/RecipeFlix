@@ -21,7 +21,7 @@ Users can use the drop-down menu to filter recipes based on a variety of criteri
 
 ![recipeFlixTour1](https://github.com/ben-counsell/RecipeFlix/assets/97848152/33bbeb06-23f9-41f5-95aa-d8dae60010ea)
 
-Users can also set their dietary requirements, which will apply across the site, only showing recipes which are relevant to them:
+Users can also set their dietary requirements which will apply across the site, only showing recipes which are relevant to them:
 
 ![Screenshot from 2023-11-10 13-40-03](https://github.com/ben-counsell/RecipeFlix/assets/97848152/48093eb8-6d65-406b-ab2b-2aa23a220a99)
 
