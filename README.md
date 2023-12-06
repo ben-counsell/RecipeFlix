@@ -12,7 +12,7 @@ Installation Requirements:
 
 Clone the repo and navigate to the server directory in the terminal. Use `npm i` to install dependencies. Then make sure mongod is running and use `npm run seeds` to seed the database. A list of generated users will appear; copy one of their IDs to the clipboard. Now `npm run server:dev` should get the server up and running.
 
-Unfortunately user verification is not yet available, so we will need to "log in" by opening the project in an IDE. Navigate to the app.jsx then paste the user ID into the loggedInUserId variable on line 15.
+Unfortunately user verification is not yet available, so we will need to "log in" by opening the project in an IDE or text editor. Navigate to the app.jsx then paste the user ID into the loggedInUserId variable on line 15.
 
 Finally, we can navigate to the client directory using the terminal and use `npm i` to install any remaining dependencies. Now `npm run dev` should get the project up and running. Ctrl-click the link to open the app in your browser.
 
