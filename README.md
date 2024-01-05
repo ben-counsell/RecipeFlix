@@ -14,6 +14,14 @@ Clone the repo and navigate to the server directory in the terminal. Use `npm i`
 
 Unfortunately user verification is not yet available, so we will need to "log in" by opening the project in an IDE or text editor. Navigate to the app.jsx then paste the user ID into the loggedInUserId variable on line 15.
 
+It will also be necessary to insert a Spoonacular API key (which are freely available <a href="https://spoonacular.com/food-api">here</a>) into a file called `apiKey.jsx` in the Services directory, formatted as follows:
+
+```
+const apiKey = {'x-api-key':'your-api-key-here'}
+
+export default apiKey
+```
+
 Finally, we can navigate to the client directory using the terminal and use `npm i` to install any remaining dependencies. Now `npm run dev` should get the project up and running. Ctrl-click the link to open the app in your browser.
 
 ## Features
