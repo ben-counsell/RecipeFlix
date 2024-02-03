@@ -12,9 +12,9 @@ Installation Requirements:
 
 Clone the repo and navigate to the server directory in the terminal. Use `npm i` to install dependencies. Then make sure mongod is running and use `npm run seeds` to seed the database. A list of generated users will appear; copy one of their IDs to the clipboard. Now `npm run server:dev` should get the server up and running.
 
-Unfortunately user verification is not yet available, so we will need to "log in" by opening the project in an IDE or text editor. Navigate to the app.jsx then paste the user ID into the loggedInUserId variable on line 15.
+Unfortunately user verification is not yet available, so we will need to "log in" by opening the project in an IDE or text editor. Navigate to `app.jsx` then paste the user ID into the loggedInUserId variable on line 15.
 
-It will also be necessary to insert a Spoonacular API key (which are freely available <a href="https://spoonacular.com/food-api">here</a>) into a file called `apiKey.jsx` in the Services directory, formatted as follows:
+It will also be necessary to insert a Spoonacular API key (which are freely available <a href="https://spoonacular.com/food-api">here</a>) into the `apiKey.jsx` file in the Services directory, formatted as follows:
 
 ```
 const apiKey = {'x-api-key':'your-api-key-here'}
